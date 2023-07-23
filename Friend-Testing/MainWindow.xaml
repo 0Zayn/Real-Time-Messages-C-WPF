@@ -1,0 +1,31 @@
+﻿<Window x:Class="Friend_Testing.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Friend_Testing"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="813"> <!-- Feel free to style and make this look good, currently I half assed the XAML. -->
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <ListView x:Name="ChatListView" Grid.Row="0" Margin="5">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock Text="{Binding SenderId}" FontWeight="Bold" />
+                        <TextBlock Text="{Binding FixedTimestamp}" Foreground="Gray" />
+                        <TextBlock Text="{Binding Content}" TextWrapping="Wrap" />
+                        <Separator Margin="0,5" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <TextBox x:Name="MessageTextBox" Width="753" Margin="5" />
+            <Button x:Name="SendButton" Content="Send" Click="OnSendMessage" Height="19" />
+        </StackPanel>
+    </Grid>
+</Window>
