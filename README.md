@@ -28,8 +28,10 @@ Also change your rules to this:
 }
 ```
 
+
 I will make a tutorial video just for you children that dont know how to setup Google Firebase:
-![Video](https://streamable.com/e/uh6v5b)
+https://streamable.com/e/uh6v5b
 
 
-# Alright Children now enjoy and you can do whatever you please with this devious source !!!!
+
+Alright Children now enjoy and you can do whatever you please with this devious source !!!!
