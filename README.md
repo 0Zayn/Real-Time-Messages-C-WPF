@@ -35,3 +35,6 @@ https://streamable.com/e/uh6v5b
 
 
 Alright Children now enjoy and you can do whatever you please with this devious source !!!!
+
+
+I WILL MAYBE EXPLAIN THE CODE LATER IM JUST VERY LAZY RN, AND HATE TYPING COMMENTS IN MY CODE
